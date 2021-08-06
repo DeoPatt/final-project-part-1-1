@@ -13,16 +13,20 @@ public void DisplayInfo(){
 }
 public void DisplayBooks(){
    foreach(Book d in Books){
-     Console.WriteLine(d);
-Book b1 = new Book();
-b1.Display();
+    
+d.Display();
+
+
   }
 
 }
  public void AddBook(Book b1){
 Books.Add(b1);
 }
-public void RemoveBook(string ISBN){
-
+public void RemoveBook(Book b1){
+  
+  Books.Remove(b1);
+  
 }
+
  }

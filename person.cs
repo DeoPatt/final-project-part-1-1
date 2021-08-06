@@ -15,7 +15,7 @@
         public Person() 
         {
           PermanentAddress = new Address();
-          Console.WriteLine("Person constructor");
+         
         }
 
         public Person(string fname, string lname) 
@@ -23,7 +23,7 @@
           FirstName = fname;
           LastName = lname;
           PermanentAddress = new Address();
-          Console.WriteLine("Person constructor");
+          
         }
 
         public virtual void Intro()
